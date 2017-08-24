@@ -44,9 +44,9 @@
                                     <constraint firstAttribute="height" constant="30" id="CPv-T8-SKs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Choose Picture"/>
+                                <state key="normal" title="Select Picture"/>
                                 <connections>
-                                    <action selector="chooseBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jhg-VC-WVP"/>
+                                    <action selector="selectBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1T8-8p-vIs"/>
                                 </connections>
                             </button>
                         </subviews>

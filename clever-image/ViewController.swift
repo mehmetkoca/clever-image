@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CoreML
+import Vision
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -14,6 +16,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
     
+    var selectedImage = CIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +24,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     
-    @IBAction func chooseBtnTapped(_ sender: Any) {
+    @IBAction func selectBtnTapped(_ sender: Any) {
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.allowsEditing = true
@@ -33,6 +36,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         imageView.image = info[UIImagePickerControllerEditedImage] as? UIImage
         self.dismiss(animated: true, completion: nil)
+        
+        if let ciImage = CIImage(image: imageView.image!) {
+            self.selectedImage = ciImage
+        }
+        
+        recognizeImage(image: selectedImage)
+    }
+    
+    func recognizeImage(image: CIImage) {
+        // ...
     }
 
 }

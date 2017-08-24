@@ -22,6 +22,7 @@
 		F0BC7C5E1F4CCE1F00577CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BC7C611F4CCE1F00577CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BC7C631F4CCE1F00577CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D445F71F4EE6B5007C620D /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				F0BC7C5E1F4CCE1F00577CF7 /* Assets.xcassets */,
 				F0BC7C601F4CCE1F00577CF7 /* LaunchScreen.storyboard */,
 				F0BC7C631F4CCE1F00577CF7 /* Info.plist */,
+				F0D445F71F4EE6B5007C620D /* GoogLeNetPlaces.mlmodel */,
 			);
 			path = "clever-image";
 			sourceTree = "<group>";
