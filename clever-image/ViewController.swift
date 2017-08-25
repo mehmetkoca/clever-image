@@ -55,7 +55,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                     DispatchQueue.main.async {
                         let confidenceRate = (topResult?.confidence)! * 100
                         let rounded = Int (confidenceRate * 100) / 100
-                        self.resultLabel.text = "\(rounded)% it's \(topResult?.identifier ?? "Anonymous")"
+                        self.resultLabel.text = "\(rounded)% it's \(topResult?.identifier ?? "Unknown")"
                     }
                 }
             })
