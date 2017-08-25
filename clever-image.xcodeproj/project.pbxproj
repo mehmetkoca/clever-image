@@ -12,6 +12,7 @@
 		F0BC7C5D1F4CCE1F00577CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC7C5B1F4CCE1F00577CF7 /* Main.storyboard */; };
 		F0BC7C5F1F4CCE1F00577CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BC7C5E1F4CCE1F00577CF7 /* Assets.xcassets */; };
 		F0BC7C621F4CCE1F00577CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC7C601F4CCE1F00577CF7 /* LaunchScreen.storyboard */; };
+		F0D445FB1F4F0FBB007C620D /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0D445FA1F4F0FBB007C620D /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F0BC7C5E1F4CCE1F00577CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BC7C611F4CCE1F00577CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BC7C631F4CCE1F00577CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D445FA1F4F0FBB007C620D /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 				F0BC7C571F4CCE1F00577CF7 /* AppDelegate.swift */,
 				F0BC7C591F4CCE1F00577CF7 /* ViewController.swift */,
 				F0BC7C5B1F4CCE1F00577CF7 /* Main.storyboard */,
-				F0BC7C5E1F4CCE1F00577CF7 /* Assets.xcassets */,
 				F0BC7C601F4CCE1F00577CF7 /* LaunchScreen.storyboard */,
+				F0BC7C5E1F4CCE1F00577CF7 /* Assets.xcassets */,
 				F0BC7C631F4CCE1F00577CF7 /* Info.plist */,
+				F0D445FA1F4F0FBB007C620D /* GoogLeNetPlaces.mlmodel */,
 			);
 			path = "clever-image";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				F0BC7C5A1F4CCE1F00577CF7 /* ViewController.swift in Sources */,
 				F0BC7C581F4CCE1F00577CF7 /* AppDelegate.swift in Sources */,
+				F0D445FB1F4F0FBB007C620D /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
