@@ -1,5 +1,5 @@
 # clever-image
-basic practice about CoreML application.
+Basic practice about image recognition with CoreML application using Places205-GoogLeNet.
 
 ![Screenshot](cleverImage.png)
 
