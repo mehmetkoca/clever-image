@@ -7,4 +7,4 @@ Basic practice about image recognition with CoreML application using Places205-G
 
 [CoreML ile Görüntü Tanımlama - YapayZeka.AI](https://yapayzeka.ai/coreml-ile-goruntu-tanimlama/)
 
-[Youtube - Short usage](https://www.youtube.com/watch?v=ZyifKDjdH1A)
+[Youtube - Short usage video](https://www.youtube.com/watch?v=ZyifKDjdH1A)
